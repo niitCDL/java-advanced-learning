@@ -1,5 +1,6 @@
 package top.advanced.generics;
 
+
 public class NumberGeneric<T> {
 
     // 定义在类上的泛型，在类内部可以使用
@@ -13,7 +14,7 @@ public class NumberGeneric<T> {
         this.number = number;
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) throws Exception{
         // 实例化对象，指定元素类型为整型
         NumberGeneric<Integer> integerNumberGeneric = new NumberGeneric<>();
         // 分别调用set、get方法
